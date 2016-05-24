@@ -1,0 +1,26 @@
+{
+  "name": "jarvis-telegram-bot",
+  "version": "0.0.1",
+  "description": "Example of simple telegram bot. Writed using node.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "jarvis-telegram-bot"
+  },
+  "keywords": [
+    "telegram",
+    "telegram-bot",
+    "node.js",
+    "js"
+  ],
+  "author": "Volodymyr Danyliv",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "telegram-node-bot": "~2.1.2",
+    "tiny_request": "~1.0.8",
+    "twitter": "^1.3.0"
+  }
+}
