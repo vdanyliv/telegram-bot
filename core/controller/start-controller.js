@@ -2,11 +2,12 @@ module.exports = (tg) => {
 	tg.controller('StartContoller', ($) => {
 		tg.for('/start', () => {
 			$.sendMessage(
-				'Команди: \n' +
-				'/start - показати всі команди бота \n' +
-				'/exchange  - курс валют \n' +
-				'/trendingtweets - гаряченьке у твіттері \n' +
-				'/twittertop - топ по тегу'
+				'Commands: \n' +
+				'/start - Show command list \n' +
+				'/exchange  - Exchange rate (only ukraine) \n' +
+				'/trendingtweets - Hot tweets \n' +
+				'/twittertop - Hot tweets by tag' +
+				'/gifbam - Gif spamer ((*)_(*)) '
 			);
 		});
 	});
