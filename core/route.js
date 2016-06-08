@@ -4,12 +4,14 @@ module.exports = (tg) => {
 	let StartContoller = require('./controller/start-controller')(tg);
 	let TrendingTweetsController = require('./controller/trending-tweets-controller')(tg);
 	let WhereIAmController = require('./controller/where-i-am-controller')(tg);
+	let GifBamController = require('./controller/gif-bam-controller')(tg);
 
 	tg.router
 		.when(['/start'], 'StartContoller')
 		.when(['/exchange'], 'ExchangeRate')
 		.when(['/trendingtweets', '/twittertop'], 'TrendingTweetsController')
 		.when(['/whereiam'], 'WhereIAmController')
+		.when(['/gifbam'], 'GifBamController')
 		.otherwise('OtherwiseController');
 
 };
