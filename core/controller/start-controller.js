@@ -6,7 +6,7 @@ module.exports = (tg) => {
 				'/start - Show command list \n' +
 				'/exchange  - Exchange rate (only ukraine) \n' +
 				'/trendingtweets - Hot tweets \n' +
-				'/twittertop - Hot tweets by tag' +
+				'/twittertop - Hot tweets by tag \n' +
 				'/gifbam - Gif spamer ((*)_(*)) '
 			);
 		});
