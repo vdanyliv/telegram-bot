@@ -1,6 +1,6 @@
-Telegram-bot
-Simple telegram bot with basic functionality.
-<br>
+<b>Telegram-bot:</b>Simple telegram bot with basic functionality.
+</br>
+</br>
 Create your config.js file using this template:
 <pre>
 module.exports = {
