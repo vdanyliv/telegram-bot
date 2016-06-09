@@ -3,10 +3,10 @@ module.exports = (tg) => {
 	let config = require('../../config');
 	let req = require('tiny_request');
 
-	ig.use({
+	/*ig.use({
 		client_id: config.instagramApi.client_id,
 		client_secret: config.instagramApi.client_secret
-	});
+	});*/
 
 	tg.controller('WhereIAmController', ($) => {
 		tg.for('/whereiam', () => {
